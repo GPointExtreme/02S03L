@@ -17,7 +17,7 @@ public class FileDemo {
 
 		while((byteRead = System.in.read()) != -1) {
 			char[] ch = Character.toChars(byteRead);
-			System.out.println(ch[0]);
+			System.out.print(ch[0]);
 			
 			if(ch[0] == 'x')
 				break;
